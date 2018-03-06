@@ -9,6 +9,7 @@
   "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [], [], "hexpm"},
   "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [], [], "hexpm"},
   "nostrum": {:git, "https://github.com/Kraigie/nostrum.git", "88fc9cd85ad272b0e27b3f576c39c4e1ef3984e3", []},
+  "ok": {:hex, :ok, "1.9.4", "fc8ff2193160c7a56bf2cf446077ff6a7bea34463b6c1958b101404a1b5a7fd3", [], [], "hexpm"},
   "poison": {:hex, :poison, "3.1.0", "d9eb636610e096f86f25d9a46f35a9facac35609a7591b3be3326e99a0484665", [], [], "hexpm"},
   "ranch": {:git, "https://github.com/ninenines/ranch", "132dd4dfee8a0cf6f2bd05d21538898bdbbc70ab", [ref: "master"]},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [], [], "hexpm"},
