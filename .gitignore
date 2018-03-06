@@ -22,3 +22,6 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 quiri_discord-*.tar
 
+# Ignore config
+config/prod.exs
+config/dev.exs

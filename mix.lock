@@ -1,0 +1,17 @@
+%{
+  "certifi": {:hex, :certifi, "2.0.0", "a0c0e475107135f76b8c1d5bc7efb33cd3815cb3cf3dea7aefdd174dabead064", [], [], "hexpm"},
+  "cowlib": {:git, "https://github.com/ninenines/cowlib", "754affa48f749229952e54c8949299c8bf7c5e32", [ref: "master"]},
+  "gen_stage": {:hex, :gen_stage, "0.13.1", "edff5bca9cab22c5d03a834062515e6a1aeeb7665fb44eddae086252e39c4378", [], [], "hexpm"},
+  "gun": {:git, "https://github.com/ninenines/gun", "a00a6b2d047a5d41e8e062d1c414000b000b45d7", []},
+  "hackney": {:hex, :hackney, "1.11.0", "4951ee019df102492dabba66a09e305f61919a8a183a7860236c0fde586134b6", [], [{:certifi, "2.0.0", [hex: :certifi, repo: "hexpm", optional: false]}, {:idna, "5.1.0", [hex: :idna, repo: "hexpm", optional: false]}, {:metrics, "1.0.1", [hex: :metrics, repo: "hexpm", optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, repo: "hexpm", optional: false]}, {:ssl_verify_fun, "1.1.1", [hex: :ssl_verify_fun, repo: "hexpm", optional: false]}], "hexpm"},
+  "httpoison": {:hex, :httpoison, "0.13.0", "bfaf44d9f133a6599886720f3937a7699466d23bb0cd7a88b6ba011f53c6f562", [], [{:hackney, "~> 1.8", [hex: :hackney, repo: "hexpm", optional: false]}], "hexpm"},
+  "idna": {:hex, :idna, "5.1.0", "d72b4effeb324ad5da3cab1767cb16b17939004e789d8c0ad5b70f3cea20c89a", [], [{:unicode_util_compat, "0.3.1", [hex: :unicode_util_compat, repo: "hexpm", optional: false]}], "hexpm"},
+  "metrics": {:hex, :metrics, "1.0.1", "25f094dea2cda98213cecc3aeff09e940299d950904393b2a29d191c346a8486", [], [], "hexpm"},
+  "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [], [], "hexpm"},
+  "nostrum": {:git, "https://github.com/Kraigie/nostrum.git", "88fc9cd85ad272b0e27b3f576c39c4e1ef3984e3", []},
+  "ok": {:hex, :ok, "1.9.4", "fc8ff2193160c7a56bf2cf446077ff6a7bea34463b6c1958b101404a1b5a7fd3", [], [], "hexpm"},
+  "poison": {:hex, :poison, "3.1.0", "d9eb636610e096f86f25d9a46f35a9facac35609a7591b3be3326e99a0484665", [], [], "hexpm"},
+  "ranch": {:git, "https://github.com/ninenines/ranch", "132dd4dfee8a0cf6f2bd05d21538898bdbbc70ab", [ref: "master"]},
+  "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [], [], "hexpm"},
+  "unicode_util_compat": {:hex, :unicode_util_compat, "0.3.1", "a1f612a7b512638634a603c8f401892afbf99b8ce93a45041f8aaca99cadb85e", [], [], "hexpm"},
+}
