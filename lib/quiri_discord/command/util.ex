@@ -3,9 +3,11 @@ defmodule QuiriDiscord.Command.Util do
   require Logger
 
   alias Nostrum.Api
+  alias HTTPoison
 
   def ping(msg) do
     now = DateTime.utc_now() |> DateTime.to_unix(:millisecond)
+
     OK.try do
       pong <- Api.create_message(msg.channel_id, "Pong!")
       {:ok, time, _} = DateTime.from_iso8601(pong.timestamp)

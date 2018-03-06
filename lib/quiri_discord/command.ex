@@ -11,7 +11,7 @@ defmodule QuiriDiscord.Command do
   def handle(msg) do
     if actionable_command?(msg) do
       msg.content
-      |> String.trim
+      |> String.trim()
       |> String.split(" ")
       |> tl
       |> execute(msg)
@@ -19,21 +19,23 @@ defmodule QuiriDiscord.Command do
   end
 
   def execute(["ping"], msg) do
-    Util.ping msg
+    Util.ping(msg)
   end
 
-def execute(["search", "find"], msg) do
-  search = send ..
-  receive do
-    {:ok, result} ->
-      # code
-    {:err, result} ->
-      # code
-  after
-    60_000 -> "Seems the API didn't respond in time..."
+  def execute(["search", "find"], msg) do
+    search =
+      send..receive do
+        {:ok, result} ->
+          "ok!"
+
+        # code
+        {:err, result} ->
+          "err!"
+          # code
+      after
+        60_000 -> "Seems the API didn't respond in time..."
+      end
   end
-  
-end
 
   def execute(_, _) do
     :noop
