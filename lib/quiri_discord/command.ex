@@ -22,6 +22,19 @@ defmodule QuiriDiscord.Command do
     Util.ping msg
   end
 
+def execute(["search", "find"], msg) do
+  search = send ..
+  receive do
+    {:ok, result} ->
+      # code
+    {:err, result} ->
+      # code
+  after
+    60_000 -> "Seems the API didn't respond in time..."
+  end
+  
+end
+
   def execute(_, _) do
     :noop
   end
